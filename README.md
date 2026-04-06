@@ -51,7 +51,7 @@ matrix chunks into fast on-chip memory to avoid repeated VRAM
 access) and vectorized memory operations. The gap between the custom 
 kernel and cuBLAS illustrates exactly why optimized library layers 
 exist and why the software stack between hardware and ML frameworks 
-is non-trivial engineering.
+actually matters.
 
 ### What I learned
 - GPU operations are **asynchronous** — Python queues instructions 
